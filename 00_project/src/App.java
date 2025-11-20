@@ -24,7 +24,7 @@ public class App {
     }
   }
 
-  public static void main(String[] args) throws Exception {
+  public static void CalculatorTest() {
     ArrayList<Number> variables = new ArrayList<Number>();
     Scanner keyboard = new Scanner(System.in);
 
@@ -55,5 +55,10 @@ public class App {
     // Create the calculator
     UseCalculator(action, variables);
 
+  }
+
+  public static void main(String[] args) throws Exception {
+    // CalculatorTest();
+    Aeroplane test = new Aeroplane();
   }
 }
